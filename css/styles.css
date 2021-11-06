@@ -15,6 +15,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
+  color: var(--main-text-color);
 }
 
 .list {
@@ -158,6 +159,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -219,6 +221,25 @@ body {
 
 /*-------------------------------PORTFOLIO BUTTONS-----------------*/
 
+.button-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--fourth-text-color);
+}
+
+.button-list:hover,
+.button-list:focus {
+  color: var(--accent-text-color);
+}
+
+.button-cursor-style {
+  cursor: pointer;
+}
 /*-------------------------------PORTFOLIO LIST-----------------*/
 
 .portfolio-list-subtitle {
@@ -239,4 +260,9 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--main-text-color);
+}
+
+.portfolio-image:hover,
+.portfolio-image:focus {
+  color: var(--accent-text-color);
 }
