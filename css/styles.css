@@ -188,6 +188,10 @@ body {
 
 /*------------------------FOOTER-----------------------*/
 
+.footer {
+  background-color: #2f303a;
+}
+
 .footer-contacts {
   font-weight: 500;
   font-size: 14px;
