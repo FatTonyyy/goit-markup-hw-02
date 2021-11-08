@@ -217,6 +217,9 @@ body {
   color: var(--accent-text-color);
 }
 
+.address-title {
+  font-style: inherit;
+}
 /*--------------------------PORTFOLIO PAGE-----------------*/
 
 /*-------------------------------PORTFOLIO BUTTONS-----------------*/
